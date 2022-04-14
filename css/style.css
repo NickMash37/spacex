@@ -82,6 +82,7 @@ main img {
   height: 1718px;
 }
 .main-desc img {
+  width: 644px;
   height: 1718px;
   float: right;
 }
@@ -106,6 +107,9 @@ main img {
 .main-desc .parameters .digits {
   text-transform: lowercase;
   text-align: right;
+}
+.main-desc .parameters .digits li span {
+  color: #B2B0B2;
 }
 .main-desc ul li {
   list-style-type: none;
@@ -165,6 +169,11 @@ footer ul li {
   font-style: normal;
   font-weight: 400;
   margin: 0 20px;
+  cursor: pointer;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 footer p {
   text-align: center;

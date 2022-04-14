@@ -98,6 +98,7 @@ main {
     height: 1718px;
 
     img {
+        width: 644px;
         height: 1718px;
         float: right;
     }
@@ -124,7 +125,13 @@ main {
          .digits {
              text-transform: lowercase;
              text-align: right;
-         }
+
+                 li {
+                     span {
+                         color: #B2B0B2;
+                     }
+                 }
+             }
     }
 
     ul {
@@ -195,6 +202,12 @@ footer {
             font-style: normal;
             font-weight: 400;
             margin: 0 20px;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
         }
     }
 
