@@ -14,6 +14,7 @@ body {
     background-color: #000;
     min-height: 100vh;
     color: $textColor;
+    cursor: default;
 
     .wrapper {
         max-width: 1230px;
@@ -47,6 +48,7 @@ header {
             font-size: 12px;
             font-weight: 400;
             margin-right: 20px;
+            cursor: pointer;
         }
     }
 }
@@ -62,6 +64,7 @@ header {
                 color: #808080;
                 margin-left: 20px;
                 font-size: 12px;
+                cursor: pointer;
             }
         }
 }
@@ -206,7 +209,7 @@ footer {
 
             a {
                 text-decoration: none;
-                color: #fff;
+                color: $textColor;
             }
         }
     }
@@ -224,7 +227,7 @@ footer {
     button {
         width: 260px;
         padding: 20px 84px;
-        border: 2px solid #FFFFFF;
+        border: 2px solid $textColor;
         box-sizing: border-box;
         border-radius: 6px;
         font-family: 'Roboto';
@@ -232,8 +235,10 @@ footer {
         font-weight: 400;
         font-size: 18px;
         background: transparent;
-        color: #fff;
+        color: $textColor;
         align-self: center;
         margin-top: 30px;
+        margin-bottom: 130px;
+        cursor: pointer;
     }
 }

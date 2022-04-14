@@ -10,6 +10,7 @@ body {
   background-color: #000;
   min-height: 100vh;
   color: #fff;
+  cursor: default;
 }
 body .wrapper {
   max-width: 1230px;
@@ -40,6 +41,7 @@ header {
   font-size: 12px;
   font-weight: 400;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .header-service {
@@ -53,6 +55,7 @@ header {
   color: #808080;
   margin-left: 20px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 /* Main section */
@@ -187,7 +190,7 @@ footer p {
 footer button {
   width: 260px;
   padding: 20px 84px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 6px;
   font-family: "Roboto";
@@ -198,6 +201,8 @@ footer button {
   color: #fff;
   align-self: center;
   margin-top: 30px;
+  margin-bottom: 130px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
